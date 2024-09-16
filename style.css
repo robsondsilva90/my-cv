@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap');
+
+* {
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.information-column {
+    background-color: #000000;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #ffff00;
+    margin-bottom: 18px;
+}
+
+.information-column hr {
+    margin-bottom: 5px;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #ffff00;
+    margin-top: 18px;
+}
+
+.information-column h3 {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.information-column ul {
+    list-style-type: none;
+}
+
+.information-column li {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.information-column a {
+    text-decoration: none;
+    color: white;
+}
+
+.information-column i {
+    margin-right: 10px;
+}
+
+.description-education {
+    margin-top: 32px;
+}
+
+.description-education p {
+    color: #ffff00;
+}
+
+.description-language .percent {
+    height: 6px;
+    background-color: #727211;
+    margin-top: 5px;
+    width: 205px;
+}
+
+.description-language .percent div {
+    height: 6px;
+    background-color: #ffff00;
+}
+
+.description-language .percent.inglish div {
+    width: 40%;
+}
+
+.experiences-column {
+    background-color: #fff;
+    padding: 40px;
+    color: #000000;
+}
+
+.experiences-column section {
+    margin-bottom: 30px;
+}
+
+.experiences-column h2 {
+    margin-bottom: 15px;
+}
+
+.experiences-column .experiences {
+    margin-bottom: 14px;
+}
+
+.last-date {
+    text-align: right;
+    font-style: italic;
+}
+
+@media (min-width: 992px) {
+    .container {
+        display: flex;
+    }
+
+    .information-column img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .experiences-column .experiences {
+        display: flex;
+    }
+
+    .experiences-date {
+        width: 300px;
+    }
+}
+
+.projects h3 {
+    padding-top: 10px;
+}
